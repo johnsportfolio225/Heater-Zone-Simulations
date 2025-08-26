@@ -8,21 +8,20 @@ The included code is intended for demonstration and reference purposes only. Use
 
 Code Explanation(s):
 
-  Heater Simulations:
+  - Heater Simulations:
 
-    Zone1_MATLAB.mlx: A live script that experiemnts with the first zone in the extruder system. This script contains many comments and explanations. It is NOT finalized, but rather a foundation for the project in the future.
-
-  
-    AllZones.m: A script that incorporates all zones in the extruder system. For the time being this is experimental, but this will serve as the final foundation when tuning multiple zones at once.
-
-  Sytstem Identification Testing:
-  
-    DataAllocation.m: A script that pulls the data of the system from a .xslx in the SQL server. This reads the data and stores it respectively into a table within matlab.
+        Zone1_MATLAB.mlx: A live script that experiemnts with the first zone in the extruder system. This script contains many comments and explanations. It is NOT finalized, but rather a foundation for the project in the future.
 
   
-    TransferFuncEst.m: This script performs system identification on Zone 1 of the extruder heater system using MATLAB’s System Identification Toolbox.
+        AllZones.m: A script that incorporates all zones in the extruder system. For the time being this is experimental, but this will serve as the final foundation when tuning multiple zones at once.
 
-    Zone1_SIDTB_Experimentation: A script that utilizes the results of the Sys ID Toolbox for the plant model. Code is similar to 'Zone1_MATLAB.mlx'
+  - Sytstem Identification Testing:
+  
+        DataAllocation.m: A script that pulls the data of the system from a .xslx in the SQL server. This reads the data and stores it respectively into a table within matlab.
+
+        TransferFuncEst.m: This script performs system identification on Zone 1 of the extruder heater system using MATLAB’s System Identification Toolbox.
+
+        Zone1_SIDTB_Experimentation: A script that utilizes the results of the Sys ID Toolbox for the plant model. Code is similar to 'Zone1_MATLAB.mlx'
 
 
 Key Features:
