@@ -27,8 +27,7 @@ tau = [65, 65, 65, 65, 65, 65, 65, 65]; % thermal time constant
 tau_null = [167, 167, 167, 167, 167, 167, 167, 167]; % thermal time constant for compensated closed-loop system
 
 %% Controller Parameters
-% PID Parameters for this specific heater zone are pulled from 
-% S:\Electrical & Controls\AMC160\AMC160_ExtruderZonePIDParameters.
+% PID Parameters for this specific heater zone are pulled from PLC
 
 % PID Parameters Zones 1 - 8
 Kp = [10.0, 2.512243, 2.705058, 2.902283, 2.9, 3.587241, 3.629854, 2.89523]; % proportional gain
@@ -94,4 +93,5 @@ title("Compensated Closed-Loop Step Responses")
 legend("Zone 1", "Zone 2", "Zone 3", "Zone 4", "Zone 5", "Zone 6", "Zone 7", "Zone 8", Location="northwest")
 xlim([0 time]);
 ylim([100 w+20]);
+
 
