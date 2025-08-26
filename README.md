@@ -4,6 +4,8 @@ DISCLAIMER:
 This repository contains code that was originally developed using proprietary machine data and auxiliary scripts (e.g., SQL exports).
 These files cannot be provided due to data access restrictions. As a result, not all functionality in the simulation scripts will run as intended.
 
+What to run: I recommend looking at Zone1_MATLAB.mlx first. This Live script will cover what the project is objectively about. The next one to look over is the AllZones.m script. This script is basically the full version of how we would want to tune across all zones in the system, but for now it is a skeleton until it can be furthter refined. From there, you can experiment with the rest of the uploaded scripts. The scripts located under "System Identification Testing" are more so used to highlight my thought process with how to use the System Identification Toolbox (this is not a finalized process and will be reviewed in the futrure). 
+
 The included code is intended for demonstration and reference purposes only. Users may adapt the framework by substituting their own process data or parameters in place of the missing files.
 
 Code Explanation(s):
