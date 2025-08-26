@@ -12,7 +12,7 @@ Under "Heater Simulations", I recommend looking at Zone1_MATLAB.mlx first. This 
 
 The scripts located under "System Identification Testing" are more so used to highlight my thought process with how to use the System Identification Toolbox (this is not a finalized process and will be reviewed in the future). The scripts under this folder also require some additional files that I cannot provide, therefore functionality will be limited.
 
-# Code Explanation(s)
+# Script Explanation(s)
 
   - Heater Simulations
     - Zone1_MATLAB.mlx: A live script that experiments with the first zone in the extruder system. This script contains many comments and explanations. It is NOT finalized, but rather a foundation for the project in the future.
