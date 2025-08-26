@@ -8,7 +8,8 @@ These files cannot be provided due to data access restrictions. As a result, not
 The included code is intended for demonstration and reference purposes only. Users may adapt the framework by substituting their own process data or parameters in place of the missing files.
 
 ## What to run: 
-Under "Heater Simulations", I recommend looking at Zone1_MATLAB.mlx first. This Live script will cover what the project is objectively about. The next one to look over is the AllZones.m script. This script is basically the full version of how we would want to tune across all zones in the system, but for now it is a skeleton until it can be further refined. The scripts located under "System Identification Testing" are more so used to highlight my thought process with how to use the System Identification Toolbox (this is not a finalized process and will be reviewed in the future). The scripts under this folder also require some additional files that I cannot provide, therefore functionality will be limited.
+Under "Heater Simulations", I recommend looking at Zone1_MATLAB.mlx first. This Live script will cover what the project is objectively about. The next one to look over is the AllZones.m script. This script is basically the full version of how we would want to tune across all zones in the system, but for now it is a skeleton until it can be further refined. 
+The scripts located under "System Identification Testing" are more so used to highlight my thought process with how to use the System Identification Toolbox (this is not a finalized process and will be reviewed in the future). The scripts under this folder also require some additional files that I cannot provide, therefore functionality will be limited.
 
 ## Code Explanation(s):
 
