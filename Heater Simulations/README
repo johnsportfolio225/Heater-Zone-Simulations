@@ -1,11 +1,13 @@
-For Zone1_MATLAB.mlx, please download the file and open it in MATLAB.
+## Steps to Run Zone1_MATLAB.mlx
 
-After opening the file, press the Run command.
+Please download the file and open it in MATLAB.
 
-Since this is a live script, plots will auto-populate in the output window.
+1) After opening the file, press the Run command.
 
-These can be scrolled through interactively as the script executes, or you can step through sections one at a time using Run Section.
+2) Since this is a live script, plots will auto-populate in the output window.
 
-At the end of execution, you will have a complete set of response plots showing the simulated heater zone behavior.
+3) These can be scrolled through interactively as the script executes, or you can step through sections one at a time using Run Section.
 
-Results can be exported directly from the figures (e.g., save as PNG, PDF, or MATLAB figure file).
+4) At the end of execution, you will have a complete set of response plots showing the simulated heater zone behavior.
+
+5) Results can be exported directly from the figures (e.g., save as PNG, PDF, or MATLAB figure file).
