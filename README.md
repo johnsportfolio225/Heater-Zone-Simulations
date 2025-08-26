@@ -1,14 +1,15 @@
 A MATLAB-based simulation framework designed to model the thermal behavior of industrial extruder heater zones. The purpose of this project is to enable offline PID tuning and system analysis without requiring direct access to the physical machine.
 
-DISCLAIMER:
+## DISCLAIMER:
 This repository contains code that was originally developed using proprietary machine data and auxiliary scripts (e.g., SQL exports).
 These files cannot be provided due to data access restrictions. As a result, not all functionality in the simulation scripts will run as intended.
 
-What to run: Under "Heater Simulations", I recommend looking at Zone1_MATLAB.mlx first. This Live script will cover what the project is objectively about. The next one to look over is the AllZones.m script. This script is basically the full version of how we would want to tune across all zones in the system, but for now it is a skeleton until it can be furthter refined. The scripts located under "System Identification Testing" are more so used to highlight my thought process with how to use the System Identification Toolbox (this is not a finalized process and will be reviewed in the futrure). The scripts under this folder also require some additional files that I cannot provide, therefore funcitonality will be limited. 
-
 The included code is intended for demonstration and reference purposes only. Users may adapt the framework by substituting their own process data or parameters in place of the missing files.
 
-Code Explanation(s):
+## What to run: 
+Under "Heater Simulations", I recommend looking at Zone1_MATLAB.mlx first. This Live script will cover what the project is objectively about. The next one to look over is the AllZones.m script. This script is basically the full version of how we would want to tune across all zones in the system, but for now it is a skeleton until it can be furthter refined. The scripts located under "System Identification Testing" are more so used to highlight my thought process with how to use the System Identification Toolbox (this is not a finalized process and will be reviewed in the futrure). The scripts under this folder also require some additional files that I cannot provide, therefore funcitonality will be limited. 
+
+## Code Explanation(s):
 
   - Heater Simulations:
 
@@ -25,7 +26,7 @@ Code Explanation(s):
         Zone1_SIDTB_Experimentation: A script that utilizes the results of the Sys ID Toolbox for the plant model. Code is similar to 'Zone1_MATLAB.mlx'
 
 
-Key Features:
+## Key Features:
 
 - Implemented a first-order heater model to replicate zone temperature dynamics.
 - Simulated open-loop and closed-loop responses using Siemens-style PID algorithms.
@@ -34,4 +35,9 @@ Key Features:
 - Provides a flexible testbed for experimenting with parameter scaling, proportional weighting, and inter-zone heat transfer.
 - Designed to reduce machine downtime by improving the accuracy of PID parameter selection.
 
-Toolboxes: Control System Toolbox, System Identification Toolbox, Symbolic Math Toolbox
+## Requirements
+- MATLAB R202x or later
+- Toolboxes:
+  - Control System Toolbox (transfer functions, `step`, `feedback`)
+  - System Identification Toolbox (for `tfest`, `iddata`, `compare`) — only needed for identification scripts
+
