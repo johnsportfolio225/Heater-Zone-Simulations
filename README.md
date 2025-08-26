@@ -38,3 +38,7 @@ The scripts located under "System Identification Testing" are more so used to hi
   - System Identification Toolbox (for `tfest`, `iddata`, `compare`) — only needed for identification scripts
   - Symbolic Math Toolbox (for `tf('s)`)
 
+## License
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+
+
