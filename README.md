@@ -34,5 +34,5 @@ Under "Heater Simulations", I recommend looking at Zone1_MATLAB.mlx first. This 
 - Toolboxes:
   - Control System Toolbox (transfer functions, `step`, `feedback`)
   - System Identification Toolbox (for `tfest`, `iddata`, `compare`) — only needed for identification scripts
-  - Symbolic Math Toolbox (for 'tf('s')')
+  - Symbolic Math Toolbox (for '**tf('s')**')
 
