@@ -30,7 +30,7 @@ Under "Heater Simulations", I recommend looking at Zone1_MATLAB.mlx first. This 
 - Designed to reduce machine downtime by improving the accuracy of PID parameter selection.
 
 ## Requirements
-- MATLAB R202x or later
+- MATLAB R2024 or later
 - Toolboxes:
   - Control System Toolbox (transfer functions, `step`, `feedback`)
   - System Identification Toolbox (for `tfest`, `iddata`, `compare`) — only needed for identification scripts
