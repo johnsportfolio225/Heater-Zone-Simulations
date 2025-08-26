@@ -1,4 +1,4 @@
-%% AMC160 Heater Band Zones Simulation
+%% Heater Band Zones Simulation
 % Next stage of simulation after 'Zone1Test.m'. This code serves as a 
 % simulation of all eight zones. Refer to 'Zone1Test.m' for guidance and 
 % explanations
@@ -94,3 +94,4 @@ title("Compensated Closed-Loop Step Responses")
 legend("Zone 1", "Zone 2", "Zone 3", "Zone 4", "Zone 5", "Zone 6", "Zone 7", "Zone 8", Location="northwest")
 xlim([0 time]);
 ylim([100 w+20]);
+
