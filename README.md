@@ -32,7 +32,7 @@ The scripts located under "System Identification Testing" are more so used to hi
 - Designed to reduce machine downtime by improving the accuracy of PID parameter selection.
 
 # Requirments
-- MATLAB R2024 or Later
+- MATLAB R2024a (This is what I used)
 - Toolboxes
   - Control System Toolbox (transfer functions, `step`, `feedback`)
   - System Identification Toolbox (for `tfest`, `iddata`, `compare`) — only needed for identification scripts
