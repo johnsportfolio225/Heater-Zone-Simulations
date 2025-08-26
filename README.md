@@ -13,7 +13,6 @@ Code Explanation(s):
   - Heater Simulations:
 
         Zone1_MATLAB.mlx: A live script that experiemnts with the first zone in the extruder system. This script contains many comments and explanations. It is NOT finalized, but rather a foundation for the project in the future.
-
   
         AllZones.m: A script that incorporates all zones in the extruder system. For the time being this is experimental, but this will serve as the final foundation when tuning multiple zones at once.
 
