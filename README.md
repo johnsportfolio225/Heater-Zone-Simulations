@@ -4,7 +4,7 @@ Key Features:
 
 - Implemented a first-order heater model to replicate zone temperature dynamics.
 - Simulated open-loop and closed-loop responses using Siemens-style PID algorithms.
-- Integrated real machine data collected from SQL servers to refine plant transfer functions via MATLAB’s System Identification Toolbox.
+- Integrated real machine data collected from SQL servers to refine plant transfer functions via MATLAB’s System Identification Toolbox (began doing this, but other job priorities diverted focus).
 - Explored 2-DOF PID structures (Kp, Ti, Td, a, b, c parameters) for realistic tuning.
 - Provides a flexible testbed for experimenting with parameter scaling, proportional weighting, and inter-zone heat transfer.
 - Designed to reduce machine downtime by improving the accuracy of PID parameter selection.
