@@ -34,9 +34,8 @@ The scripts located under "System Identification Testing" are more so used to hi
 # Requirments
 - MATLAB R2024a (This is what I used)
 - Toolboxes
-  - Control System Toolbox (transfer functions, `step`, `feedback`)
-  - System Identification Toolbox (for `tfest`, `iddata`, `compare`) — only needed for identification scripts
-  - Symbolic Math Toolbox (for `tf('s)`)
+  - Image Processing Toolbox
+  - Computer Vision Toolbox
 
 # License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
